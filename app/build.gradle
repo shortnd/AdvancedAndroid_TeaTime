@@ -32,5 +32,8 @@ dependencies {
     androidTestCompile 'com.android.support.test:rules:0.5'
     androidTestCompile 'com.android.support.test:runner:0.5'
 
+    // Note that espresso-idling-resource is used in the code under test
+    compile 'com.android.support.test.espresso:espresso-idling-resource:2.2.2'
+
 
 }
